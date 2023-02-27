@@ -15,7 +15,7 @@ RADIUS = 150
 class Welcome(arcade.Window):
     """Main welcome window
     """
-'
+
     def __init__(self):
         """Initialize the window
         """
@@ -33,6 +33,7 @@ class Welcome(arcade.Window):
         arcade.draw_circle_filled(
             SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, RADIUS, arcade.color.BLUE
         )
+        
 # Main code entry point
 if __name__ == "__main__":
     app = Welcome()
